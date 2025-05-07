@@ -11,7 +11,7 @@ if (!isset($_SESSION['user'])) {
 <main>
     <section class="banner">
         <h1>Bienvenue sur Artizania</h1>
-        <p>Découvrez nos produits artisanaux uniques et faits avec amour.</p>
+        <p>Découvrez nos produits artisanaux uniques.</p>
         <a href="/shop/" class="btn btn-primary">Explorer la boutique</a>
     </section>
 

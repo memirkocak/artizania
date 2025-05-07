@@ -20,6 +20,7 @@
                             <li><a href="/shop/">Boutique</a></li>
                             <li><a href="/cart/">Panier</a></li>
                             <li><a href="/profile/">Profil</a></li>
+                            <li><a href="/admin/admin/">Admin</a></li> <!-- Ce lien est ici temporairement -->
                             <?php if (isset($_SESSION['admin']) && $_SESSION['admin']): ?>
                                 <li><a href="/admin/">Admin</a></li>
                             <?php endif; ?>
