@@ -9,6 +9,7 @@ class Product {
     private $description;
     private $image;
     private $price;
+    private $category;
 
     public function getId() {
         return $this->id;
@@ -24,6 +25,12 @@ class Product {
     }
     public function getPrice() {
         return $this->price;
+    }
+    public function getCategory() {
+        return $this->category;
+    }
+    public function setCategory($category) {
+        $this->category = $category;
     }
     public function setId() {
         $this->id = uniqid();

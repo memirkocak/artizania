@@ -23,6 +23,7 @@ if (!isset($_SESSION['user'])) {
                     <img src="<?= $product->getImage() ?>" alt="<?= $product->getName() ?>">
                     <h3><?= $product->getName() ?></h3>
                     <p><?= $product->getDescription() ?></p>
+                    <p>categories : <?= $product->getCategory() ?></p>
                     <p>Prix: <?= $product->getPrice() ?> €</p>
                 </div>
             <?php endforeach; ?>
