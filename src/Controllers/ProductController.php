@@ -31,4 +31,10 @@ class ProductController
         header("Location: /admin/shop/");
     }
 
+    public function shop()
+    {
+        $products = $this->productManager->all();
+        require VIEWS . 'App/shop.php';
+    }
+
 }

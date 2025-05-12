@@ -12,6 +12,8 @@ $router->get('/', "HomeController@index");
 $router->get('/auth/login/', "UserController@showLogin");
 $router->get('/auth/register/', "UserController@showRegister");
 $router->get('/auth/logout/', "UserController@logout");
+$router->get('/shop', "ProductController@shop");
+
 
 
 $router->get('/admin/shop/', "HomeController@showShop");

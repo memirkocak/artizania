@@ -20,7 +20,7 @@ if (!isset($_SESSION['user'])) {
             <textarea name="description" id="description" required></textarea>
         </div>
         <div>
-            <label for="price">Prix</label>
+            <label for="price">Prix (€)</label>
             <input type="text" name="price" id="price" required>
         </div>
         <div>
